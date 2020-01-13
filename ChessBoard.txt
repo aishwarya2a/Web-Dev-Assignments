@@ -1,0 +1,53 @@
+/**
+ * Welcome to the Stanford Karel IDE.
+ * This is a free space for you to 
+ * write any Karel program you want.
+ **/
+function main(){
+   
+   chessTwice();
+   turnLeft();
+   putBeeper();
+   move();
+   turnLeft();
+   move();
+   chessBoard();
+   putBeeper();
+   move();
+   turnRight();
+   move();
+   
+   //Entered 3rd row
+   turnRight();
+  chessTwice();
+   turnLeft();
+   putBeeper();
+   move();
+   turnLeft();
+   move(); 
+   
+   //Entered 4th row
+    chessBoard();
+   putBeeper();
+   move();
+   turnRight();
+   move();
+   
+   //Entered 5th row
+   turnRight();
+  chessTwice();
+   turnLeft();
+   putBeeper();
+  
+}
+
+function chessBoard(){
+ putBeeper();
+ move();
+ move();
+}   
+
+function chessTwice(){
+   chessBoard();
+   chessBoard();
+}

@@ -1,0 +1,12 @@
+function getMilk(money) {   
+  var bottles = Math.trunc(money/1.5);
+  var change = money%1.5;
+  console.log("leave House");
+  console.log("The money available is "+money+"$. Bought "+bottles+" bottles of milk.");
+  console.log("enter House");
+
+  return change;
+}
+
+var change1 = getMilk(134);
+console.log(change1);
