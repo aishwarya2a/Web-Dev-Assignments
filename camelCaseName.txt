@@ -1,0 +1,7 @@
+var name = prompt("Name please");
+name = name.toLowerCase();
+var firstChar = name.slice(0,1);
+firstChar = firstChar.toUpperCase();
+name = name.slice(1,name.length);
+var finalCorrection = firstChar+name;
+alert("Hello, " + finalCorrection);
